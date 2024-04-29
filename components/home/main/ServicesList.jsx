@@ -1,4 +1,4 @@
-import { services } from "@/constants/global";
+import { MY_SERVICES } from "@/constants/global";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -15,7 +15,7 @@ export function ServicesList() {
         </div>
 
         <ul className="grid grid-cols-2 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 xl:gap-x-8  items-center justify-items-center ">
-          {services.map((product) => (
+          {MY_SERVICES.map((product) => (
             <li key={product.id} className="w-[80%]">
               <Link href={product.href}>
                 <Image
