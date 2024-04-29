@@ -6,21 +6,21 @@ import mainImg2 from "@/public/images/main/about_me2.jpg";
 
 export function AboutMe() {
   return (
-    <section className="container flex items-center min-h-[100vh]">
+    <section className="container flex items-center min-h-[100vh] pb-4">
       <Container>
-        <div className="flex gap-3 items-center mb-10">
+        <div className="flex gap-3 items-center mb-8">
           <Image src={mainImg} alt="Sonya_img1" className=" max-h-[13rem]" />
           <div>
             <Image src={mainImg2} alt="Sonya_img2" className="max-h-[7rem] " />
             <h2 className="text-sm mt-2">/ Обо мне</h2>
           </div>
         </div>
-        <div className="max-w-[720px]  border-red-600">
+        <div className="max-w-[720px] border-red-600">
           <p className="text-lg mb-4 ">
             Приветствую, я Соня. <br /> Content creator & photographer / Сoach.
             Based in Spain.
           </p>
-          <p className="text-xs text-justify">
+          <p className="text-sm text-justify">
             Я фотографирую с 2017 года. Специализируюсь на стилях сьемки таких
             как lifestyle и предметная: фотографирую людей и создаю контент для
             их личных блогов и брендов.
