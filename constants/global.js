@@ -20,15 +20,15 @@ export const services = [
   },
   {
     id: 3,
-    title: "/   СОТРУДНИЧАЮ  /",
-    href: "#",
-    imageSrc: image3,
-  },
-  {
-    id: 4,
     title: "/ PRESETS /",
     href: "#",
     imageSrc: image4,
+  },
+  {
+    id: 4,
+    title: "/   СОТРУДНИЧАЮ  /",
+    href: "#",
+    imageSrc: image3,
   },
   {
     id: 5,

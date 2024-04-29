@@ -5,10 +5,10 @@ import Link from "next/link";
 
 export function ServicesList() {
   return (
-    <section className="bg-zinc-800 w-full h-full text-white py-10">
-      <div className=" px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-10">
-        <div className="mb-10 ml-12">
-          <h2 className="uppercase text-[3.45rem] ml-[-6px] text-fontGreen leading-8 text-left">
+    <section className="bg-cBlack2 w-full h-full text-white mb-16">
+      <div className="py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-10">
+        <div className="mb-10 ml-6">
+          <h2 className="uppercase text-[3.45rem] ml-[-6px] text-cGreen leading-8 text-left">
             Услуги
           </h2>
           <p>Чем я могу быть полезна?</p>
@@ -24,7 +24,7 @@ export function ServicesList() {
                   className="h-full w-full object-cover object-center brightness-[.9] contrast-[.9]"
                 />
 
-                <h3 className="mt-3 h-10 text-sm text-white">
+                <h3 className="mt-1 h-10 text-xs text-white">
                   {product.title}
                 </h3>
               </Link>
