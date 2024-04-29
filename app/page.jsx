@@ -1,6 +1,6 @@
 import { Footer } from "@/components/home/footer/Footer";
 import { Header } from "@/components/home/header/Header";
-import { Greeting } from "@/components/home/main/Greeting";
+import { AboutMe } from "@/components/home/main/Greeting";
 import { ServicesList } from "@/components/home/main/ServicesList";
 
 export default function Main() {
@@ -9,7 +9,7 @@ export default function Main() {
       <Header />
 
       <main className=" flex-col ">
-        <Greeting />
+        <AboutMe />
         {/* <ServicesList /> */}
       </main>
 

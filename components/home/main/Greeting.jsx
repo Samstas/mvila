@@ -1,26 +1,26 @@
-import Image from "next/image";
-// import mainImg from "@/public/images/main/sonya_greeting.jpg";
-import mainImg from "@/public/images/main/sonya_greeting.jpg";
-import mainImg2 from "@/public/images/main/sonya_greeting2.jpg";
 import { Container } from "@/components/ui/Container";
 
-export function Greeting() {
+import Image from "next/image";
+import mainImg from "@/public/images/main/about_me1.jpg";
+import mainImg2 from "@/public/images/main/about_me2.jpg";
+
+export function AboutMe() {
   return (
-    <section className="container min-h-[100vh] m-10">
+    <section className="container flex items-center min-h-[100vh]">
       <Container>
         <div className="flex gap-3 items-center mb-10">
-          <Image src={mainImg} alt="Sonya" className=" h-[13rem]" />
+          <Image src={mainImg} alt="Sonya_img1" className=" max-h-[13rem]" />
           <div>
-            <Image src={mainImg2} alt="Sonya" className="" />
-            <h2>/ Обо мне</h2>
+            <Image src={mainImg2} alt="Sonya_img2" className="max-h-[7rem] " />
+            <h2 className="text-sm mt-2">/ Обо мне</h2>
           </div>
         </div>
         <div className="max-w-[720px]  border-red-600">
-          <h1 className="text-lg mb-4 ">
+          <p className="text-lg mb-4 ">
             Приветствую, я Соня. <br /> Content creator & photographer / Сoach.
             Based in Spain.
-          </h1>
-          <p className="text-[0.6rem] text-justify">
+          </p>
+          <p className="text-xs text-justify">
             Я фотографирую с 2017 года. Специализируюсь на стилях сьемки таких
             как lifestyle и предметная: фотографирую людей и создаю контент для
             их личных блогов и брендов.
