@@ -1,7 +1,10 @@
+import { CgClose } from "react-icons/cg";
+import { BiMenu } from "react-icons/bi";
 import "@/app/globals.css";
 import { Forum, Lora } from "next/font/google";
 import { ModalWindowProvider } from "@/contexts/ModalWindowContext.jsx";
 import { Container } from "@/components/ui/Container";
+import { BurgerMenu } from "@/components/BurgerMenu";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -28,9 +31,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ru" className={`${forum.variable} ${lora.variable} font-serif`}>
       <body className="flex min-h-screen flex-col bg-cBeige1 text-[#202020]">
-        {/* <Container> */}
         <ModalWindowProvider>{children}</ModalWindowProvider>
-        {/* </Container> */}
+        <BurgerMenu />
       </body>
     </html>
   );

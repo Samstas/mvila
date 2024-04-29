@@ -8,7 +8,7 @@ export default function Main() {
     <>
       <Header />
 
-      <main className=" flex-col ">
+      <main>
         <AboutMe />
         <ServicesList />
       </main>

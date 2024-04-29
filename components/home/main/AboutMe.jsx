@@ -6,7 +6,7 @@ import mainImg2 from "@/public/images/main/about_me2.jpg";
 
 export function AboutMe() {
   return (
-    <section className="container flex items-center min-h-[100vh] pb-4">
+    <section className="container flex items-center min-h-[100vh] py-4">
       <Container>
         <div className="flex gap-3 items-center mb-8">
           <Image src={mainImg} alt="Sonya_img1" className=" max-h-[13rem]" />
