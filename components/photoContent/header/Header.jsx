@@ -1,7 +1,7 @@
 import Image from "next/image";
 import logo from "@/public/images/logo2.svg";
 
-function Header() {
+export function Header() {
   return (
     <header className="h-screen bg-visual-hero-bg bg-cover bg-center bg-no-repeat ">
       <div className="flex h-full items-center flex-col justify-center">
@@ -13,5 +13,3 @@ function Header() {
     </header>
   );
 }
-
-export default Header;
