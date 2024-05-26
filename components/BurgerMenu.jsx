@@ -31,10 +31,10 @@ export function BurgerMenu() {
 
       {isNavOpen && (
         <nav className="fixed bg-cBlack inset-0 flex items-center justify-center">
-          <ul className=" text-cBeige2 text-xl flex flex-col gap-6">
+          <ul className=" text-cBeige2 text-xl flex flex-col gap-4">
             {NAV_LINKS.map((link) => (
               <li key={link.id}>
-                <Link href={link.path}>{link.title}</Link>
+                <Link className="uppercase" href={link.path}>{link.title}</Link>
               </li>
             ))}
           </ul>

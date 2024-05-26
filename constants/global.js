@@ -52,27 +52,32 @@ export const NAV_LINKS = [
   },
   {
     id: 2,
-    title: "Визуал",
-    path: "/visual",
+    title: "Съемка",
+    path: "/photo_content",
   },
-  {
-    id: 3,
-    title: "PRESETS",
-    path: "/presets",
-  },
-  {
-    id: 4,
-    title: "СОТРУДНИЧАЮ",
-    path: "/colaboration",
-  },
-  {
-    id: 5,
-    title: "Обучаю съемке.",
-    path: "/photo_study",
-  },
-  {
-    id: 6,
-    title: "Консультирую по растительному питанию.",
-    path: "/nutrition_consulting",
-  },
+  // {
+  //   id: 2,
+  //   title: "Визуал",
+  //   path: "/visual",
+  // },
+  // {
+  //   id: 3,
+  //   title: "PRESETS",
+  //   path: "/presets",
+  // },
+  // {
+  //   id: 4,
+  //   title: "СОТРУДНИЧАЮ",
+  //   path: "/colaboration",
+  // },
+  // {
+  //   id: 5,
+  //   title: "Обучаю съемке.",
+  //   path: "/photo_study",
+  // },
+  // {
+  //   id: 6,
+  //   title: "Консультирую по растительному питанию.",
+  //   path: "/nutrition_consulting",
+  // },
 ];

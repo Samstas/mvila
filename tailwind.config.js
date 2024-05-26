@@ -23,6 +23,7 @@ module.exports = {
       backgroundImage: {
         "main-hero-bg": "url('/images/main/home_hero.jpg')",
         "visual-hero-bg": "url('/images/visual/visual_hero.jpg')",
+        // "visual-hero-bg": "url('/images/visual/visual_hero.jpg')",
       },
       fontFamily: {
         lora: ["var(--font-lora)"],
