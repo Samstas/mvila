@@ -89,25 +89,25 @@ export const PHOTO_OPTIONS_LIST = [
     id: 1,
     name: "/ Индивидуальная",
     img: testPhoto,
-    link: "photo_content/individual",
+    link: "/photo_content/individual",
   },
   {
     id: 2,
     name: "Love / Family / Friends: S T O R Y",
     img: testPhoto,
-    link: "photo_content/story",
+    link: "/photo_content/story",
   },
   {
     id: 3,
     name: "Content for brands ",
     img: testPhoto,
-    link: "photo_content/brands",
+    link: "/photo_content/brands",
   },
   {
     id: 4,
     name: "Контент  /  Визуал для личных блогов ",
     img: testPhoto,
-    link: "photo_content/blog_visual",
+    link: "/photo_content/blog_visual",
   },
 ];
 
